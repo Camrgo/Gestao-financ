@@ -34,7 +34,10 @@
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
-            <!-- div nav-btns: agrupa botôes de navegação -->
+           
+        </nav>
+        
+        <!-- div nav-btns: agrupa botôes de navegação -->
             <div class="nav-btns">
                 <a href="#" class="btn btn-outline">Login</a>
                 <a href="#" class="btn btn-neon">Criar sua conta</a>
@@ -46,14 +49,13 @@
                 <span></span>
                 <span></span>
             </div>
-        </nav>
 
     </header>
 
     <!-- Section: Define uma seção na pagina, aqui seção é a principal (home) com a classe hero -->
     <section id="home" class="hero">
         <!-- div container: Wrapper para centralizar e limitar a largura do conteudo -->
-        <div class="cotainer grid-hero">
+        <div class="container grid-hero">
             <!-- div hero text contém o  texto principal da seção hero -->
             <div class="hero-text">
                 <h1>Liberte-se das finanças complicadas.<br><span class="text-gradiente">Viva com inteligência</span>
@@ -279,6 +281,51 @@
 
     </section>
 
+    <!-- seção de contato -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contatos</h2>
+            <!-- grid para formulario de contato -->
+            <div class="grid-contact">
+                <div class="contact-card">
+                    <h3>Fala conosco</h3>
+                    <p>Entre em contato conosco e nossa equipe responderá o mais breve possível </p>
+                    <form action="" class="contact-form">
+                        <input type="text" placeholder="texto" required>
+                        <input type="email" placeholder="Seu email" required>
+                        <!-- caixa de texto maior textarea -->
+                        <textarea placeholder="sua mensagem"></textarea>
+                        <button type="button" class="btn btn-neon">Enviar sua mensagem</button>
+                    </form>
+                </div>
+                <div class="contact-card info">
+                    <h3>informações de contato</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p><strong>Telefone:</strong>+55 11 1234-5678</p>
+                    <p><strong>Endereço:</strong>Rua exemplo 123</p>
+                    <p><strong>Horario de Funcionamento:</strong>Segunda a sexta 9h ás 18h</p>
+                </div>
+ 
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- define o Rodapé da nossa pagina -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Gestão Prime - Todos os direitos reservados.</p>
+        </div>
+        <div class="social">
+            <a href="http://" target="_blank" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="http://" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="http://" target="_blank" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+ 
+ 
+        </div>
+    </footer>
+
+    
 
 </body>
 
